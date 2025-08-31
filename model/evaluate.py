@@ -4,7 +4,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # Load the dataset
-df = pd.read_csv("C:\ml-ci-cd-pipeline2\data\WA_Fn-UseC_-Telco-Customer-Churn - Shortcut.lnk")
+df = pd.read_csv("C:\ml-ci-cd-pipeline2\data\WA_Fn-UseC_-Telco-Customer-Churn(1).csv")
 
 # Preprocess the dataset
 X = pd.get_dummies(df.drop(['customerID', 'Churn'], axis = 1), drop_first = 1)

@@ -10,7 +10,7 @@ import joblib
 
 # Load the dataset
 
-df = pd.read_csv("C:\ml-ci-cd-pipeline2\data\WA_Fn-UseC_-Telco-Customer-Churn - Shortcut.lnk")
+df = pd.read_csv("C:\ml-ci-cd-pipeline2\data\WA_Fn-UseC_-Telco-Customer-Churn(1).csv")
 
 
 
@@ -42,4 +42,4 @@ model.fit(X_train, y_train)
 
 # Save the model
 
-joblib.dump(model, 'model/Telecom_churn_model.pkl')
+joblib.dump(model, 'model/telecom_churn_model.pkl')
